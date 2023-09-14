@@ -23,13 +23,18 @@
                         <label for="descripcion" class="form-label" style="color: #ffffff;">Descripcion</label>
                         <input type="text" class="form-control" id="descripcion" name="descripcion" value="<%= tarea.descripcion %>" style="height: 300px;">
                     </div>
+                    <div class="mb-3">
+                        <label for="tarea" class="form-label" style="color: #ffffff;">Imagen</label>
+                        <input type="text" class="form-control" id="imagen" name="imagen" placeholder="Nueva url. de la imagen">
+                    </div>
+                    <img src="<%= tarea.imagen %>" alt="imagen" style="width: 50px; height: 50px; margin: 10px 0px 40px 10px;">
+                    <br>
                     <button type="submit" class="btn btn-outline-light">
                         Guardar
                     </button>
                 </form>
             </div>
         </div>
-        <img src="<%= tarea.imagen %>" alt="">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
