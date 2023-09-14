@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Agregar tarea</title>
+    <title>Agregar Foro</title>
 </head>
-<body>
+<body style="background-color: #9e0536;">
     <div style="padding: 50px;">
-        <div class="card">
-            <div class="card-header">
-                Agregar nueva tarea
+        <div class="card" style="background-color: #822525;">
+            <div class="card-header" style="color: #ffffff; text-align: center; font-size: 25px;">
+                Agregar nuevo foro
             </div>
             <div class="card-body">
                 <form method="post">
                     <div class="mb-3">
-                        <label for="tarea" class="form-label">Tarea</label>
-                        <input type="text" class="form-control" id="tarea" name="tarea">
+                        <label for="tarea" class="form-label" style="color: #ffffff;">Titulo</label>
+                        <input type="text" class="form-control" id="tarea" name="tarea" placeholder="Escriba aqui su titulo">
                     </div>
                     <div class="mb-3">
-                        <label for="descripcion" class="form-label">Descripcion</label>
-                        <input type="text" class="form-control" id="descripcion" name="descripcion">
+                        <label for="descripcion" class="form-label" style="color: #ffffff;">Descripcion</label>
+                        <input type="text" class="form-control" id="descripcion" name="descripcion" style="height: 200px;" placeholder="Escriba aqui su descripcion Max. 2000 caracteres.">
                     </div>
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn btn-outline-light">
                         Guardar
                     </button>
                 </form>
